@@ -35,7 +35,6 @@ public class ExemploArrayList {
 		notas.set(notas.indexOf(5d), 6.0d);
 		System.out.println("\nA nota 5 foi alterada para 6: " + notas);
 		
-		
 		//Apaga a nota 4.0 e mostra que a exclusão foi efetuada.
 		//Observe que apenas a primeira nota 4.0 foi apagada.
 		notas.remove(notas.indexOf(4.0d));
