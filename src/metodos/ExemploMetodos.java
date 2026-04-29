@@ -17,26 +17,24 @@ public class ExemploMetodos {
 		ExemploMetodoExterno.info(); // ao chamar um metodo criado em outra classe/pacote, chamar o nome da classe e importar
 		
 		
-	}
-	// 
+	} 
 	//Métodos são ações!
 	// public pode ser acessado geral, consegue chamar em outros arquivos. Private-acessa somente a mesma classe. Protected - acessa dentro do pacote.
-	//static - deixa o metodo independente.  
+	//static - método independente. Pode ser Chamado a qualquer momento. Não pertence a um item especifico.  
 	// int é o tipo de retorno, pode ser string, float etc. 
 	// somar é o nome do metodo - colocar sempre como ação 
 	
-	public static int somar (int num1, int num2) { // Assinatura do Método com Retorno e Argumentos
-		// usado para guardar informação. 
-		// todo método com tipo exceto (void), tem que ter o return como palavra reservada
+	// Assinatura do Método com Retorno e Argumentos. Usado para guardar informação. 
+	public static int somar (int num1, int num2) { 
+		// todo método do tipo exceto (void), tem que ter o return como palavra reservada
 		return num1 + num2; // procedimento /lógica do método
 	}
-	
-	public static void mensagem() { // void para ausencia de valores / não precisa usar return pq não tem o que retornar/ só executa. 
-		// não precisa guardar informação
+	// Método sem retorno e sem parametro.
+	public static void mensagem() {  
 		System.out.println("Esse método não tem retorno(void)");
 	}
-	
-	public static void saudacao (String msg) { // metodo sem retorno mas que pede um parametro 
+	// metodo sem retorno mas com parametro 
+	public static void saudacao (String msg) {
 		System.out.println(msg);
 	}
 }
