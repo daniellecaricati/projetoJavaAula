@@ -9,16 +9,17 @@ public class TestaCarro {
 		Carro c1 = new Carro("Kombi", 4, 4,"Modelo XYZ");
 		Carro c2 = new Carro("Toyota", 2, 4 , "Supra");
 		
-
 		//c1.marca = "Kombi";
-		//c1.portas = 4;~
-		// Set- Para inserir os valores/ Atualizar
+		//c1.portas = 4;
+		
+		// Set-Usado Para inserir os valores/ Atualizar
 		c1.setMarca("Kombi");  
 		//c1.setPortas(4);
 		
-		
+		// chamada do método locomover
 		c1.locomover();
 		
+		// Impressao dos métodos criados
 		System.out.println("Marca: " + c1.getMarca()); // Get -para buscar o valor/ exibir
 		System.out.println("Qtd. Portas: " + c1.getPortas());
 		System.out.println("Modelo: " + c1.getModelo_motor());
