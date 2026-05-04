@@ -3,7 +3,7 @@ package poo;
 // A classe é o Molde. Instanciamento é Construir um objeto a partir de uma classe.
 public class Carro {
 	
-	// Atributos
+	// 1º - Declarar os Atributos da classe 
 	// Começar colocando Atributos da classe Carro: acesso + tipo + nome;
 	// Atributos precisam estar privados / Usuario pode atualizar os valores dos atributos mas não pode acessar e modificar o atributo diretamente
 	private String marca;
@@ -11,8 +11,9 @@ public class Carro {
 	private int portas;
 	private String modelo_motor;
 	
-	// Método Construtor - publico + nome classe
+	// 2 º - Declarar Método Construtor = Ao criar o objeto, ele faz a ligação entre os valores do objeto e os atributos da classe
 	//Os parametros dentro do () indica que assim que criar um objeto precisara informar o que esta sendo requisitado dentro ().
+	//Public + nome + (tipo + nome atributo)
 	public Carro(String marca, int rodas, int portas, String modelo_motor) { 
 		this.marca = marca; // This faz referencia a propria classe  ex. Carro.rodas = Parametro rodas
 		this.rodas = rodas;
@@ -21,7 +22,7 @@ public class Carro {
 		
 	}
 	
-	// Métodos de Acesso/Especiais (Get - Buscar/Set - Atualizar) 
+	//3º - Declarar Métodos de Acesso/Especiais (Get - Buscar/Set - Atualizar) 
 	public String getMarca() {
 		return marca;
 	}
@@ -54,7 +55,7 @@ public class Carro {
 		this.modelo_motor = modelo_motor;
 	}
 
-	// Métodos - Ação do objeto
+	// Declaração de Métodos
 	// apenas public void vincula o metodo locomover a classe do Carro
 	public void locomover() {
 		System.out.println("Estou me locomovendo...");		

@@ -7,8 +7,8 @@ import java.util.Set;
 public class ExemploSet {
 
 	public static void main(String[] args) {
-		
-		// Cria a Collection Set, do tipo String chamada setFrutas
+		// Set não permite valores duplicados(exclui automaticamente) e não tem ordem 
+		// Cria a Collection Set + tipo + nome = new HashSet + tipo ()
 				Set<String> setFrutas = new HashSet<String>();
 
 				// Adiciona algumas frutas na Colection Set

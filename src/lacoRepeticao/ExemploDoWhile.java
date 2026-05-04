@@ -9,6 +9,7 @@ public class ExemploDoWhile {
 		int numero, resultado, contador = 1;
         Scanner leia = new Scanner(System.in);
 
+        // DO faz a condição ser executada ao menos uma vez
         do {
 	        System.out.println("\nDigite um número inteiro: ");
 	        numero = leia.nextInt();

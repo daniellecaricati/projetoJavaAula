@@ -4,7 +4,8 @@ public class ExemploVetorFor {
 
 	public static void main(String[] args) {
 		
-		// Vetor declarado pelo desenvolvedor
+		// Vetor declarado pelo desenvolvedor 
+		// Vetor is dynamic array 
 		
 		String vetorCachorros [] = {"Boxer", "Pastor A", "Pinscher", "Husky", "Corgi"};
 		

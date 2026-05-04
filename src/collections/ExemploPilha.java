@@ -7,14 +7,15 @@ public class ExemploPilha {
 
 	public static void main(String[] args) {
 		//Criando/Declarando a Collection Pilha
-
+		// Deque means Double-Ended Queue - Can Add/Remove from the front and back. LAST IN FIRST OUT
+		//Deque + tipo + nome = new ArrayDeque(Implementation)+ tipo 
 		Deque<String> pilha = new ArrayDeque<String>();
 		
 		// Variável para identificar a posição do elemento na pilha
         int contador = 0;
         
         // Adiciona elementos no topo da pilha
-        pilha.push("Prato Verde"); // LIFO LAST IN FIRST OUT
+        pilha.push("Prato Verde"); 
         pilha.push("Prato Azul");
         pilha.push("Prato Branco");
         pilha.push("Prato Amarelo");
@@ -24,9 +25,9 @@ public class ExemploPilha {
         System.out.println("\nElementos da Pilha (topo → base):");
         contador = pilha.size();
         
-        for (String prato : pilha) { // for it
-        	
-        	System.out.printf("[%d] %s%n", contador, prato);
+        for (String prato : pilha) { // for each item inside pilha, take one and call it prato
+        	// printf = print in a formatted way (template + values), %d = integer number, %s = string, %n = new line
+        	System.out.printf("[%d] %s%n", contador, prato); // print a number inside brackets, tehn a string, then go to next line
         	contador --;
         }
        

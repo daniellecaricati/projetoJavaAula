@@ -14,10 +14,11 @@ public class ExemploSwitchCase {
 		System.out.println("--Digite 3 para receber uma Indicação de música--");
 		opcao = leia.nextInt();
 
-		switch (opcao) {
+		// Condição Escolha - usado para menu de opções
+		switch (opcao) { 
 		case 1:
 			System.out.println("Livro: O Alquimista");
-			break;
+			break; //Uso do break é obrigatorio
 		case 2:
 			System.out.println(
                 "Frase motivacional: Se você cair, levante! Não dá para andar deitado.");
@@ -25,7 +26,7 @@ public class ExemploSwitchCase {
 		case 3:
 			System.out.println("Música: AURORA - No Cure For Me.");
 			break;
-		default:
+		default: // default = quando não atender nenhumm dos casos
 			System.out.println("Opção Inválida");
 			
 		}

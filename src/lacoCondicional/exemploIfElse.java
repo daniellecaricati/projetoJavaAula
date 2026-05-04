@@ -7,7 +7,7 @@ public class exemploIfElse {
 	public static void main(String[] args) {
 		
 		//Variaveis	
-		float nota1, nota2, media;
+		float nota1, nota2, media; // float para tipo decimal 
 		Scanner leia = new Scanner(System.in);
 		
 		//Entrada de Dados
@@ -20,7 +20,8 @@ public class exemploIfElse {
 		//Processamento
 		media = (nota1 + nota2) / 2;
 		
-		if (media >= 6) {
+		// Condição Se/ Senao
+		if (media >= 6) { 
 				System.out.println("Parabéns, pessoa participante aprovada!");
 	   }else {
 			System.out.println("Infelizmente, a pessoa participante foi reprovada.");

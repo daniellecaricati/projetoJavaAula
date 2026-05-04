@@ -4,13 +4,13 @@ public class VariaveisConstantes {
 
 	public static void main(String[] args) {
 		
-		// Variaveis
+		// Variaveis= os valores podem mudar / Usada em = usuarios, contadores etc
 		int idade = 25;
 		String nome = "Danielle";
 		float graus = 20.0f;
 		boolean resposta; 
 		
-		//Constantes
+		//Constantes = final transforma a variavel em imutavel/ usada em PI value, limite maximo, configurações 
 		final int QUANTIDADE = 50;
 		final String TURMA = "Turma 84";
 		final double AREA = 3.1415;

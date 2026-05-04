@@ -1,16 +1,18 @@
 package pooHeranca;
 
-public class Instrutor extends Pessoa {
+public class Instrutor extends Pessoa { //Extends - herda da pessoa
 	
-	// Atributos	
+	// 1º- Atributos	
 	private String especialidade;
-
+	
+	// 2º -Metodo Construtor
 	public Instrutor(String nome, int idade, String email, String especialidade) {
 		super(nome, idade, email);
 		this.especialidade = especialidade;
 	}
 	
-		public String getEspecialidade() {
+	// 3º - Método de Acesso Get/Set
+	public String getEspecialidade() {
 		return especialidade;
 	}
 
